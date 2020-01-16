@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Spotlight_Tunnel_PLM.unity
+- path: Assets/Workshop/Scene/01_LearnCycle.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
