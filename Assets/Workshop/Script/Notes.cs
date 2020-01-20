@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public class Notes : MonoBehaviour
 {
-	[TextArea(10 , 14)]
+	[TextArea(40 , 14)]
 	[SerializeField]
 	string  note;
     

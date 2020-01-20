@@ -1125,10 +1125,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43247e34f735fee4e93439e2e72ceb84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  note: '3rd Learn Cycle:
+  note: '6th Learn Cycle:
 
 
-    * '
+    * To give more details in the tram tunnel, lets add
+    few more lights and light probes as well to beautify the scene bit more.
+
+
+    *
+    Add Ceiling Lights in tunnel. (Point Light)
+
+
+    * Add Light Probe Group
+
+
+    *
+    Add Reflection Probes on tram track lines.
+
+
+    * Bake the scene lights to see
+    the difference.
+
+
+    * Hit Play and move around your player to see the environment
+    details.
+
+
+
+    -----------------------------The End------------------------------'
 --- !u!4 &330650786
 Transform:
   m_ObjectHideFlags: 0
@@ -5681,6 +5705,151 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531376866669194, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531376866669194, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[18].x
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531376866669194, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[19].x
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531376866669194, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_Dering
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531376866669194, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[20].x
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.size
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[18].x
+      value: 14.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[18].y
+      value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[18].z
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_Dering
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[19].x
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[20].x
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[21].x
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[22].x
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[22].y
+      value: 1.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[22].z
+      value: 2.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[23].x
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[23].y
+      value: 3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[23].z
+      value: -10.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[24].x
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454531377409416201, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_SourcePositions.Array.data[25].x
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521673065290154688, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_Name
+      value: Light Probe Group
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521684187693073707, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_Name
+      value: Light Probe Group
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521811729179936520, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_Name
+      value: Light Probe Group
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521811730092883541, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_Name
+      value: Light Probe Group
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521811730543680994, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_Name
+      value: Light Probe Group
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521811731057124514, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_Name
+      value: Light Probe Group
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521811731103648156, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_Name
+      value: Light Probe Group
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521811731161803855, guid: a1dacb02d7496414a82de902726118e0,
+        type: 3}
+      propertyPath: m_Name
+      value: Light Probe Group
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1dacb02d7496414a82de902726118e0, type: 3}

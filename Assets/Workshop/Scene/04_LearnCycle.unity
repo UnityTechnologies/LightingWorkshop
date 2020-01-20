@@ -664,10 +664,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43247e34f735fee4e93439e2e72ceb84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  note: '3rd Learn Cycle:
+  note: '4th Learn Cycle:
 
 
-    * '
+    * We can see that at various places in underground
+    tram station, lights are penetrating inside the model mesh. To fix this, add
+    default unity plane meshes over the top the Tram Station named as "ShadowOnly_Mesh_Invisible".
+
+
+    *
+    Bake the scene lights to see the difference.'
 --- !u!4 &330650786
 Transform:
   m_ObjectHideFlags: 0

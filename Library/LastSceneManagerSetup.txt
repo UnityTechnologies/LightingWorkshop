@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Workshop/Scene/01_LearnCycle.unity
+- path: Assets/Workshop/Scene/06_LearnCycle.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

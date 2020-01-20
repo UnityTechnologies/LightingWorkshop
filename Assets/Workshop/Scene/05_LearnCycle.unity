@@ -1161,10 +1161,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43247e34f735fee4e93439e2e72ceb84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  note: '3rd Learn Cycle:
+  note: '5th Learn Cycle:
 
 
-    * '
+    * Remove Main Camera and instead of it add ''RigidbodyFPSController''
+    and set its position on the platform.
+
+
+    * Now to improve internal lighting,
+    we can add various lighting components under gameobject ''Environment Lighting''
+    such as :-
+
+
+    1) ''Key_PointLight'' - Point Light.
+
+    2) ''Spotlight_Station_Down''
+    - Spot Light
+
+    3) ''Reflection Probe'' - at various points in environment
+
+    4)
+    ''Line Light'' - Area Light
+
+
+    * Bake the scene lights to see the difference.'
 --- !u!4 &330650786
 Transform:
   m_ObjectHideFlags: 0

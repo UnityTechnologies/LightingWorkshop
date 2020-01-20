@@ -364,17 +364,19 @@ MonoBehaviour:
 
 
     * Tram
-    is dark from inside. Lets add some spotlight inside for Light lamps inside.
+    is dark from inside. Let''s add some spotlight inside for Light lamps inside.
 
 
     *
     As we know that, every object put their reflection on surrounding objects. To
     have that sme effect we have Unity Reflection probes. To do so add a gameobject
-    in hierarchy here you want to show relfection of surrounding. Add Component on
+    in hierarchy here you want to show reflection of surrounding. Add Component on
     it named as ''Reflection Probe''. Set type and influence volume in settings.
 
 
-    * '
+    *
+    From Lighting Settings, set lightmap setting and then generate scene lighting.
+    Also known as "Light Baking".'
 --- !u!4 &330650786
 Transform:
   m_ObjectHideFlags: 0

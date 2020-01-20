@@ -594,13 +594,14 @@ MonoBehaviour:
     * Create new scene.
 
     *
-    Lighting Setting.
+    Lighting and lighting strateges explained.
 
-    * Sky and Fog Volume. Will explain about Volume Components
-    and its override component ''Visual Environment'' for setting up sky.
+    * Sky and Fog Volume. Will explain
+    about Volume Components and its override component ''Visual Environment'' for
+    setting up sky.
 
-    *
-    Scene Post Processing. Will explain about Volume override exposure.'
+    * Scene Post Processing. Will explain about Volume override
+    exposure.'
 --- !u!4 &330650786
 Transform:
   m_ObjectHideFlags: 0

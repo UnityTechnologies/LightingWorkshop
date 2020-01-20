@@ -353,7 +353,49 @@ MonoBehaviour:
   note: '3rd Learn Cycle:
 
 
-    * '
+    * Adding ''Tram_Tunnel'' model in the scene.
+
+
+    *
+    Setting Directional Light (Sun) component properties such as emission, intensity,
+    shadows, light color etc.
+
+
+    * Default Unity HDRP scene consist 2 gameobjects
+    havng ''Volume'' component on it with different overrides on it. Delete them
+    and create new gameobject named as ''Scene PostProcess'' and add Volume component
+    on it.
+
+
+    * Create new Volume profile.
+
+
+    * Add overrides such as :-
+
+    1)
+    Tonemapping (set its mode to ''ACES'').
+
+    2) Visual Environment (set type
+    to ''Gradient Sky'').
+
+    3) Exposure. (can tweek these values for desired results)
+
+    4)
+    Fog. (can tweek these values for desired results)
+
+    5) Gradient Sky. (can
+    tweek these values for desired results)
+
+    6) Ambient Occlusion. (can tweek
+    these values for desired results)
+
+
+    * Explain these overrides and their properties.
+
+
+    *
+    Bake the scene lights. Now you can see the lighting difference. Tram from inside
+    looks better and beautiful.'
 --- !u!4 &330650786
 Transform:
   m_ObjectHideFlags: 0
